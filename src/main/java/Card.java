@@ -6,4 +6,12 @@ public class Card {
         this.suit = suit;
         this.number = number;
     }
+
+    public SuitType getSuit(){
+        return this.suit;
+    }
+
+    public NumberType getNumber(){
+        return this.number;
+    }
 }
